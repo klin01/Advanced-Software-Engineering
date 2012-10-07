@@ -1,1 +1,7 @@
 Process Twitter 
+
+
+Dependencies:
+        python libraries:
+                json - json parsing
+                sqlite3 - for sqlite access
