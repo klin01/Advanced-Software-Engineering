@@ -1,0 +1,22 @@
+Process Twitter 
+
+
+Dependencies:
+        python libraries:
+                json - json parsing
+                sqlite3 - for sqlite access
+
+
+Some test data:
+     https://docs.google.com/open?id=0B0hzERER2-rzeXdFb2h1ZnExZ28
+
+
+
+
+Usage:
+        1. run create_db.py to create local sqlite database
+            $> python create_db.py
+        2. download test data
+            wget https://docs.google.com/open?id=0B0hzERER2-rzeXdFb2h1ZnExZ28
+        3. populate database
+           $> cat some_data.txt | python parse_data.py
